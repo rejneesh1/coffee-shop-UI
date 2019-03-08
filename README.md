@@ -2,4 +2,4 @@
 
 
 #
-demo - https://rejneesh1.github.io/coffee-shop-UI/about.html
+demo - https://rejneesh1.github.io/coffee-shop-UI/index.html
