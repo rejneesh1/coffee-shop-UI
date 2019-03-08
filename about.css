@@ -1,0 +1,80 @@
+body{
+    background: linear-gradient(#2f170f75,#2f170fb0),url(./bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.site-heading{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    line-height: 1.2
+}
+
+
+.site-heading .site-heading-upper{
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #e6a756
+}
+
+.site-heading .site-heading-lower{
+    font-size: 5rem;
+    font-weight: 100;
+    line-height: 4rem;
+}
+
+/*----------------- navbar--------- --------*/
+nav.navbar{
+    background-color: #2f170fe6
+}
+.navbar-dark .navbar-brand{
+    color:#e6a756
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgba(255,255,255,.7);
+    font-weight: 800;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #e6a756
+}
+/*------------ main--------------------- */
+.bg{
+    background-color: #ffffffd9
+}
+
+@media (min-width: 992px){
+    .about-heading {
+        margin-top: -5rem;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.heading-upper {
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase
+}
+
+.heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.about-heading p{
+    line-height: 1.75;
+}
+
+
+/* ----------------------footer------------------ */
+footer{
+    background-color: #2f170fe6;
+    color:#ffffff4d;
+    font-size:100%
+}
